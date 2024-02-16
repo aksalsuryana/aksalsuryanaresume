@@ -6,7 +6,8 @@ body {
   }
   
   .zoom {
-    height: 450px;
+    height: 500px;
+    padding-top: 50px;
     overflow: hidden;
   }
   .zoom img {
@@ -14,17 +15,26 @@ body {
   }
   .zoom:hover img {
     transform: scale(1.1);
+    box-shadow: 0 0 .1rem #fff,
+  0 0 .1rem #fff,
+  0 0 1rem #13bbfe,
+  0 0 0.8rem #13bbfe,
+  0 0 1.8rem #13bbfe,
+  inset 0 0 1.3rem #13bbfe;
   }
 
   
   body {
     background-color: lightgrey;
     color: blue;
+
+    
   }
   
   h1 {
     font-family: Montserrat;
     color: white;
+    
   }
   
   h4 {
@@ -131,6 +141,12 @@ body {
   background-size: 200%;
   background-position: right;
   transition: background-position 0.5s ease-out;
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #13bbfe,
+  0 0 0.8rem #13bbfe,
+  0 0 2.8rem #13bbfe,
+  inset 0 0 1.3rem #13bbfe;
 }
 .card-icon {
   margin: 0 1em;
