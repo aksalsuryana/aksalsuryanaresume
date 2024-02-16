@@ -1,0 +1,143 @@
+body {
+   background-image: url("https://i.gifer.com/7dDt.gif");
+   background-color: #cccccc;
+    background-size: 2000px 2000px;
+    color: White;
+  }
+  
+  .zoom {
+    height: 450px;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform .5s ease;
+  }
+  .zoom:hover img {
+    transform: scale(1.1);
+  }
+
+  
+  body {
+    background-color: lightgrey;
+    color: blue;
+  }
+  
+  h1 {
+    font-family: Montserrat;
+    color: white;
+  }
+  
+  h4 {
+    color: white;
+  }
+
+  h2 {
+    color: white;
+  }
+
+ 
+
+  h5 {
+    color: white;
+  }
+
+  h6 {
+    color: white;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  
+  .container {
+    margin-top: 8%;
+  }
+
+  
+
+  
+  .card .box.front{
+      background-image: url(img/pattern.png);
+      background-repeat: repeat;
+  }
+  .card .box.front,
+  .card .box.back {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .card .box.front img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #262626;
+    margin-bottom: 25px;
+  }
+  
+  .card:hover .box.front {
+      transform: rotateY(180deg);
+  }
+  .box.front h2 {
+    font-family: 'Bebas Neue', cursive;
+  }
+  .box.front h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  .socials i {
+    margin: 0 15px;
+  }
+  .card .box.back {
+      position: absolute;
+      background: #fff;
+      transform: rotateY(180deg);
+      padding: 20px 30px;
+      text-align: center;
+      user-select: none;
+  }
+  
+  .card .box.back .fa-quote-left {
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    font-size: 3.2rem;
+  }
+  
+
+  
+  @media(max-width: 991.5px) {
+      .col-lg-4 {
+          margin-top: 40px;
+          margin-bottom: 20px;
+      }
+  }
+  
+
+  .card {
+  border: 0;
+  border-radius: 0;
+  color: #fff;
+  padding: 3em 0;
+  border-bottom-right-radius: 4em;
+  border-top-left-radius: 4em;
+  background: linear-gradient(to left, rgb(52, 55, 67) 50%, #26282b 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.5s ease-out;
+}
+.card-icon {
+  margin: 0 1em;
+}
+.card-icon i{
+  font-size: 3em;
+}
+.card:hover {
+  background-position: left;
+}
